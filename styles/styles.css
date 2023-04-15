@@ -242,7 +242,7 @@ ul a:hover {
     flex-direction: column;
   }
   .header p {
-    width: 400px;
+    width: 350px;
   }
   .header img {
     width: 350px;
@@ -260,7 +260,7 @@ ul a:hover {
     margin-top: 10px !important;
   }
   .hobbies-list li {
-    width: 400px;
+    width: 350px;
   }
   .row-facts {
     display: flex;
@@ -288,7 +288,7 @@ ul a:hover {
     justify-content: center;
   }
   .skills-row .shkala {
-    width: 400px;
+    width: 350px;
   }
   .contacts-row {
     display: flex;
