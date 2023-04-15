@@ -237,6 +237,11 @@ ul a:hover {
 }
 
 @media (max-width: 500px) {
+  .about-of-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .header {
     display: flex;
     flex-direction: column;
@@ -250,6 +255,7 @@ ul a:hover {
   .hobbies-lists {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .hobbies-lists ul {
     display: flex;
@@ -260,7 +266,7 @@ ul a:hover {
     margin-top: 10px !important;
   }
   .hobbies-list li {
-    width: 350px;
+    width: 320px;
   }
   .row-facts {
     display: flex;
@@ -270,12 +276,16 @@ ul a:hover {
     gap: 10px;
     flex-direction: column;
   }
+  .row-facts img {
+    width: 320px;
+  }
   .row-facts ul {
     gap: 10px;
   }
   .projects-row {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .skills img {
     display: none;
