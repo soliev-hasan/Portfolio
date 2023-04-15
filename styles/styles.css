@@ -235,3 +235,67 @@ ul a:hover {
   padding: 40px;
   font-size: 20px;
 }
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header p {
+    width: 400px;
+  }
+  .header img {
+    width: 350px;
+  }
+  .hobbies-lists {
+    display: flex;
+    flex-direction: column;
+  }
+  .hobbies-lists ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+  .hobbies-list li {
+    width: 400px;
+  }
+  .row-facts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .row-facts ul {
+    gap: 10px;
+  }
+  .projects-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills img {
+    display: none;
+  }
+
+  .skills-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills-row .shkala {
+    width: 400px;
+  }
+  .contacts-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    text-align: center;
+    align-items: center;
+  }
+}
