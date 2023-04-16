@@ -236,37 +236,153 @@ ul a:hover {
   font-size: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+  .nav {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+  .nav ul {
+    width: 340px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hobbies-lists {
+    display: flex;
+    gap: 10px;
+  }
+  .hobbies-list li {
+    width: 300px;
+    padding: 30px;
+  }
+  .hobbies-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 !important;
+    gap: 10px;
+    position: relative;
+  }
+  .hobbies-lists ul:first-child li:last-child {
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    width: 613px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hobbies li:hover {
+    transform: scale(1);
+  }
+  .facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .row-facts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    gap: 20px;
+  }
+  .row-facts ul {
+    gap: 10px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills img {
+    display: none;
+  }
+  .skills-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contacts-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-card {
+    width: 450px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    font-size: 15px;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nav img {
+    display: none;
+  }
+  .nav ul {
+    width: 200px;
+    align-items: center;
+  }
   .about-of-me {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .header {
     display: flex;
     flex-direction: column;
   }
   .header p {
-    width: 350px;
+    width: 280px;
   }
   .header img {
-    width: 350px;
+    width: 280px;
   }
   .hobbies-lists {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .hobbies-lists ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-left: 0px !important;
-    margin-top: 10px !important;
   }
   .hobbies-list li {
-    width: 320px;
+    width: 280px;
+  }
+  .hobbies-lists ul:first-child li:last-child {
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-start;
   }
   .row-facts {
     display: flex;
@@ -277,7 +393,8 @@ ul a:hover {
     flex-direction: column;
   }
   .row-facts img {
-    width: 320px;
+    width: 280px !important;
+    height: 250px !important;
   }
   .row-facts ul {
     gap: 10px;
@@ -291,14 +408,30 @@ ul a:hover {
     display: none;
   }
 
+  .project {
+    width: 280px;
+  }
+  .project:hover {
+    transform: scale(1);
+  }
+  .project:active {
+    transform: scale(0.9);
+  }
   .skills-row {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+  .skill div {
+    width: 260px !important;
+  }
   .skills-row .shkala {
-    width: 350px;
+    width: 230px;
+  }
+
+  .contact-card {
+    width: 280px;
   }
   .contacts-row {
     display: flex;
