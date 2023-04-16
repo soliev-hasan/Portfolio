@@ -330,7 +330,7 @@ ul a:hover {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
   * {
     font-size: 15px;
   }
