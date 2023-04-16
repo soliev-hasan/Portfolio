@@ -356,7 +356,7 @@ ul a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .header p {
     width: 360px;
@@ -378,7 +378,7 @@ ul a:hover {
     gap: 10px;
   }
   .hobbies {
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .hobbies-list li {
     width: 360px;
@@ -408,13 +408,13 @@ ul a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .row-facts ul {
     gap: 10px;
   }
   .projects {
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .projects-row {
     display: flex;
@@ -449,7 +449,7 @@ ul a:hover {
   }
 
   .contact {
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .contact-card {
     width: 380px;
@@ -459,7 +459,7 @@ ul a:hover {
     flex-direction: column;
   }
   .footer {
-    width: 380px;
+    width: 380px !important;
     text-align: center;
     align-items: center;
   }
