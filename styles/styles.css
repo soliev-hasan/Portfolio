@@ -354,6 +354,8 @@ ul a:hover {
   .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .header p {
     width: 360px;
@@ -371,6 +373,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
   }
   .hobbies-list li {
@@ -396,6 +399,12 @@ ul a:hover {
     width: 360px !important;
     height: 290px !important;
   }
+  .facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .row-facts ul {
     gap: 10px;
   }
@@ -403,6 +412,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .skills img {
     display: none;
