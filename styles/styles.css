@@ -459,7 +459,6 @@ ul a:hover {
     flex-direction: column;
   }
   .footer {
-    width: 380px !important;
     text-align: center;
     align-items: center;
   }
