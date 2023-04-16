@@ -349,13 +349,14 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
   }
   .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
+    margin-left: 25px;
   }
   .header p {
     width: 360px;
@@ -367,14 +368,17 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
   }
   .hobbies-lists ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
     gap: 10px;
+  }
+  .hobbies {
+    margin-left: 25px;
   }
   .hobbies-list li {
     width: 360px;
@@ -397,22 +401,26 @@ ul a:hover {
   }
   .row-facts img {
     width: 360px !important;
-    height: 290px !important;
+    height: 300px !important;
   }
   .facts {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
+    margin-left: 25px;
   }
   .row-facts ul {
     gap: 10px;
+  }
+  .projects {
+    margin-left: 25px;
   }
   .projects-row {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
   }
   .skills img {
     display: none;
@@ -431,7 +439,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center;
   }
   .skill div {
     width: 260px !important;
@@ -440,6 +448,9 @@ ul a:hover {
     width: 330px;
   }
 
+  .contact {
+    margin-left: 25px;
+  }
   .contact-card {
     width: 380px;
   }
@@ -448,7 +459,7 @@ ul a:hover {
     flex-direction: column;
   }
   .footer {
-    width: 100% !important;
+    width: 380px;
     text-align: center;
     align-items: center;
   }
