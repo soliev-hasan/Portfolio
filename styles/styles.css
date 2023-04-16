@@ -342,7 +342,7 @@ ul a:hover {
     display: none;
   }
   .nav ul {
-    width: 200px;
+    width: 300px;
     align-items: center;
   }
   .about-of-me {
@@ -356,10 +356,10 @@ ul a:hover {
     flex-direction: column;
   }
   .header p {
-    width: 280px;
+    width: 360px;
   }
   .header img {
-    width: 280px;
+    width: 360px;
   }
   .hobbies-lists {
     display: flex;
@@ -374,13 +374,13 @@ ul a:hover {
     gap: 10px;
   }
   .hobbies-list li {
-    width: 280px;
+    width: 360px;
   }
   .hobbies-lists ul:first-child li:last-child {
     position: absolute;
     top: 420px;
     left: 0px;
-    width: 280px;
+    width: 360px;
     display: flex;
     justify-content: flex-start;
   }
@@ -393,8 +393,8 @@ ul a:hover {
     flex-direction: column;
   }
   .row-facts img {
-    width: 280px !important;
-    height: 250px !important;
+    width: 360px !important;
+    height: 290px !important;
   }
   .row-facts ul {
     gap: 10px;
@@ -409,7 +409,7 @@ ul a:hover {
   }
 
   .project {
-    width: 280px;
+    width: 360px;
   }
   .project:hover {
     transform: scale(1);
@@ -427,17 +427,18 @@ ul a:hover {
     width: 260px !important;
   }
   .skills-row .shkala {
-    width: 230px;
+    width: 330px;
   }
 
   .contact-card {
-    width: 280px;
+    width: 380px;
   }
   .contacts-row {
     display: flex;
     flex-direction: column;
   }
   .footer {
+    width: 100%;
     text-align: center;
     align-items: center;
   }
