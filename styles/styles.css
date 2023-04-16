@@ -349,13 +349,13 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
   }
   .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
   }
   .header p {
     width: 360px;
@@ -367,13 +367,13 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
   }
   .hobbies-lists ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
     gap: 10px;
   }
   .hobbies-list li {
@@ -403,7 +403,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
   }
   .row-facts ul {
     gap: 10px;
@@ -412,7 +412,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
   }
   .skills img {
     display: none;
@@ -431,7 +431,7 @@ ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
   }
   .skill div {
     width: 260px !important;
@@ -448,9 +448,8 @@ ul a:hover {
     flex-direction: column;
   }
   .footer {
-    width: 100%;
+    width: 100% !important;
     text-align: center;
     align-items: center;
-    background-color: aqua;
   }
 }
